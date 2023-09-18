@@ -1,0 +1,1 @@
+This project is a Todo List Application which is built using the HTML, CSS, Vanilla Javascript. It implements all the basic functionalities of a todo list, i.e, CRUD Operations (Create Read Update Delete). 

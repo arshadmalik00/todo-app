@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="shortcut icon" href="Todo-asset/checklist.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <span>TO-DO APP</span>
+      </div>
+
+      <h1>Task List</h1>
+      <!-- input area for the task -->
+      <form id="new-task-form">
+        <input type="text" id="new-task-input" placeholder="What will be the task?" />
+        <input type="submit" id="new-task-submit" value="Submit Task" />
+      </form>
+    </header>
+    <main>
+      <section class="task-list">
+        <!-- create a div to updated no of task -->
+        <div class="filter">
+          <h2>Tasks</h2>
+          <span id="task-count">0 Tasks</span>
+        </div>
+
+        <!-- append the task list to the div -->
+        <div id="tasks">
+          <!-- <div class="task">
+            <div class="content">
+              <input type="text" class="text" value="My Shiny task" readonly />
+            </div>
+            <div class="actions">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div>  -->
+        </div>
+      </section>
+    </main>
+    <footer>
+        <section class="footer-des">
+            <div class="auther">
+                <p>Made with <span><img class="heart" src="Todo-asset/heart.png" alt="heart"> by</span> Arshad Malik <span class="symbol">@ </span>2023</p>
+            </div>
+        </section>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
